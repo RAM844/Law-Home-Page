@@ -1,0 +1,120 @@
+/* btn-clr:#8F8033
+    txt-clr:#8C8A83
+*/
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Dela+Gothic+One&family=Montserrat:wght@400;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Orbitron:wght@400;600;700&family=Oswald:wght@200;400;700&family=Poppins:wght@100;200;300;700&family=Roboto+Slab:wght@300;700;900&family=Roboto:wght@400;500&family=Teko&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    color: #fff;
+
+}
+
+body{
+    background-color: #2B2922;
+    font-family: 'Open Sans',sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 90px;
+}
+.list-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.list-item{
+    color: #8C8A83;
+    font-weight: 300;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+    margin-right: 40px;
+    align-content: center;
+    padding-top: 10px;
+}
+.list-item:hover,.list-item-active{
+    color: #fff;
+    font-weight: 600;
+}
+
+.nav-button button{
+    font-size: 18px;
+    font-weight: 400;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #8f8033;
+    padding: 10px 20px;
+    color: #8F8033;
+    border-radius: 5px;
+}
+
+.logo img{
+    height: 45px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px 90px;
+}
+
+ .column-1{
+    font-family: 'Montserrat';
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.column-2{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 400;
+    width: 60%;
+    margin-left: 50px;
+    padding-top: 50px;
+    
+}
+.column-2 p{
+    line-height: 1.4;
+    color: #adaba4;
+}
+
+main{
+    background-image: url('/assets/pexels-ekaterina-bolovtsova-6077326.jpg');
+    background-position:cover ;
+    background-repeat:no-repeat ;
+    height: 80vh;
+    width: 100vw;
+    background-size: 100%;
+}
+
+.arrows img{
+    height: 60px;
+    float: right;
+    
+}
+.arrows{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 90px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.left{
+    padding: 20px;
+}
+
+
+
+
