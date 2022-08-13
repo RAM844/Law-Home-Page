@@ -23,7 +23,7 @@
 
 
 ## What I learned
-- I learned how to arrange components with flexbox and how to ovelay colors on the background image.
+- I learned how to arrange components with flexbox
 
 ## Time taken
 - It took me around 2 hours to built this website from scratch
@@ -31,8 +31,9 @@
 
 
 ## Links
-- [live demo](#)
-- [source](#)
+- [live demo](https://law-home-pg.netlify.app/)
+- [source](https://github.com/RAM844/Food-Restaurant-Home-Page)
+
 
 
 ## Contact me
